@@ -1,20 +1,48 @@
-        <section class="header-13-sub v-center bg-midnight-blue">
-            <div>
-                <div class="background">&nbsp;</div>
-                <div class="container">
-                    <div class="row">
-                        <div class="span5 offset1">
-                            <h3>Let's help each other</h3>
-                            <p class="lead">
-                                Share stuff with friends. Help others with usefull stuff.
-                            </p>
-                            <br>
-                            <div class="row">
-                                <a class="btn btn-danger btn-huge span3" href="#">Get it now!</a>
+        <header class="header-23">
+            <div class="container">
+                <div class="row">
+                    <div class="navbar span12">
+                        <div class="navbar-inner">
+                            <button type="button" class="btn btn-navbar"></button>
+                            <a class="brand" href="#">Startup</a>
+                            <div class="nav-collapse collapse">
+                                <ul class="nav pull-right">
+                                    {% for link in site.nav %}
+                                    <li>
+                                        {% if link.external %}
+                                        <a href="{{ link.url }}" target="_blank">{{ link.title }}</a>
+                                        {% else %}
+                                        <a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>
+                                        {% endif %}
+                                    </li>
+                                    {% endfor %}
+                                </ul>
+                                <ul class="subnav">
+                                    {% for link in site.subnav %}
+                                    <li>
+                                        {% if link.external %}
+                                        <a href="{{ link.url }}" target="_blank">{{ link.title }}</a>
+                                        {% else %}
+                                        <a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>
+                                        {% endif %}
+                                    </li>
+                                    {% endfor %}
+                                </ul>
                             </div>
                         </div>
-                        <div class="span4 offset1">
-                            <img src="{{site.assets}}common-files/img/header/iphone.png" class="hidden-phone" alt="">
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="header-23-sub bg-midnight-blue">
+            <div class="background">&nbsp;</div>
+            <div class="container">
+                <div class="row">
+                    <div class="span12">
+                        <div class="hero-unit">
+                            <strong>{{site.title}}</strong>
+                            <a class="btn-play" href="#">Play</a>
+                            <span>{{site.description}}</span>
                         </div>
                     </div>
                 </div>
