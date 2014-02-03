@@ -1,28 +1,19 @@
 title:            Jipio
-description:      Deel spullen met vrienden
+description:      Share stuff with friends
 logo:             //s3-eu-west-1.amazonaws.com/assets.jipio.com/beta/assets/img/favicon.ico
 assets:           //s3-eu-west-1.amazonaws.com/assets.jipio.com/corporate/
 disqus_shortname:
 #Comment out url when working locally to resolve base urls correctly
-url: http://jipio.nl
+url: http://jipio.com
 
 # Owner/author information
 owner:
-  name: changer
-  avatar:
-  email:
-  # Social networking links used in footer. Update and remove as you like.
-  twitter:
-  github: changer
-  stackexchange:
-  # For Google Authorship https://plus.google.com/authorship
-  google_plus:
+  name: Jipio
+  avatar: https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash3/t1/c35.35.441.441/s320x320/577975_170520776430896_314304979_n.png
+  email: hello@jipio.com
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:
-google_verify:
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
+google_analytics: UA-28530539-3
 
 # Links to include in top navigation
 # For external links add external: true
