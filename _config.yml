@@ -5,6 +5,7 @@ assets:           //s3-eu-west-1.amazonaws.com/assets.jipio.com/corporate/
 disqus_shortname:
 #Comment out url when working locally to resolve base urls correctly
 url: http://jipio.com
+domain: jipio.com
 
 # Owner/author information
 owner:
