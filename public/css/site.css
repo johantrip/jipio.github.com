@@ -96,3 +96,9 @@ iframe { border:none;}
     .close { right:50%; margin-right: -24px;position:absolute;}
 
 }
+
+@header navbar {
+.header-17 .navbar .nav > li.active > a {
+color: #8CC63F;
+
+}
