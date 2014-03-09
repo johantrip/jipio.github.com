@@ -97,19 +97,33 @@ iframe { border:none;}
 
 }
 
-    .header-17 .navbar .nav > li.active > a {
-    color: #8CC63F;}
-    
-    .content-7 h6 {
-    color: #ED7A20;}
-    
-    .content-8 .btn.btn-clear {
-    border: 2px solid #ED7A20;
-    color: #ED7A8D;
-    color: #ED7A20;}
+.header-17 .navbar .nav > li.active > a {
+  color: #8CC63F;
+}
 
-    .bg-orange {
-    background-color: #ED7A20;
-      }
+.content-7 h6 {
+  color: #ED7A20;
+}
 
+.content-8 .btn.btn-clear {
+  border: 2px solid #ED7A20;
+  color: #ED7A20;
+}
 
+.bg-orange {
+  background-color: #ED7A20;
+}
+
+.content-29 {
+  margin-bottom: -150px !important;
+  padding-top: 80px !important;
+  padding-bottom: 0 !important;
+}
+
+.footer-7 {
+  padding-bottom: 50px !important;
+}
+
+.header-17 ul.nav > li > a > img {
+  margin-top: -5px !important;
+}
