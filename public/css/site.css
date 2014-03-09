@@ -98,7 +98,14 @@ iframe { border:none;}
 }
 
 @header navbar {
-.header-17 .navbar .nav > li.active > a {
-color: #8CC63F;}
+    .header-17 .navbar .nav > li.active > a {
+    color: #8CC63F;}
 
+}
+
+@h6 color next to iphone {
+  
+    .content-7 h6 {
+    color: #ED7A20;}
+    
 }
