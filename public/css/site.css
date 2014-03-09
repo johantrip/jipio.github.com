@@ -96,3 +96,20 @@ iframe { border:none;}
     .close { right:50%; margin-right: -24px;position:absolute;}
 
 }
+
+    .header-17 .navbar .nav > li.active > a {
+    color: #8CC63F;}
+    
+    .content-7 h6 {
+    color: #ED7A20;}
+    
+    .content-8 .btn.btn-clear {
+    border: 2px solid #ED7A20;
+    color: #ED7A8D;
+    color: #ED7A20;}
+
+    .bg-orange {
+    background-color: #ED7A20;
+      }
+
+
