@@ -95,8 +95,6 @@ iframe { border:none;}
     .previewer iframe {width: 300px;max-height: 270px;}
     .close { right:50%; margin-right: -24px;position:absolute;}
 
-}
-
 .header-17 .navbar .nav > li.active > a {
   color: #8CC63F;
 }
@@ -126,4 +124,6 @@ iframe { border:none;}
 
 .header-17 ul.nav > li > a > img {
   margin-top: -5px !important;
+}
+
 }
