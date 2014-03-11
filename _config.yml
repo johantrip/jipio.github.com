@@ -14,7 +14,7 @@ owner:
   email: hello@jipio.com
 
 # Analytics and webmaster tools stuff goes here
-google_analytics: UA-28530539-3
+google_analytics: UA-28530539-2
 
 # Links to include in top navigation
 # For external links add external: true
@@ -22,19 +22,19 @@ nav:
   - title: About
     url: /about
   - title: Blog
-    url: http://blog.jipio.nl
+    url: http://hello.jipio.com
     external: true
   - title: Contact
-    url: /contact
+    url: http://hello.jipio.com/contact
 
 subnav:
   - title: Home
     url: /
   - title: Blog
-    url: http://blog.jipio.nl
+    url: http://hello.jipio.com
     external: true
   - title: Contact
-    url: /contact
+    url: http://hello.jipio.com/contact
 
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
